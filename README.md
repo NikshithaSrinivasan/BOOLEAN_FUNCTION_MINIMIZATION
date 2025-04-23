@@ -44,9 +44,7 @@ F2 = xy’z + x’y’z + w’xy + wx’y + wxy:
 
 5.	For different input combinations generate the timing diagram.
 
-
 **Program:**
-
 ```python
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 Developed by: NIKSHITHA.S
@@ -71,8 +69,6 @@ module exp2(a,b,c,d,w,x,y,z,f1,f2);
   assign f2=y1|y2|y3|y4|y5;
   endmodule 
 ```
-
-
 **RTL realization**
 
 ![Screenshot 2025-04-16 084828](https://github.com/user-attachments/assets/e3dd20a1-6d93-4b0d-a1fa-a1853d5fceff)
@@ -80,7 +76,6 @@ module exp2(a,b,c,d,w,x,y,z,f1,f2);
 **Timing Diagram**
 
 ![image](https://github.com/user-attachments/assets/32755610-4555-49e7-8467-53766bdbd97b)
-
 **Result:**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
